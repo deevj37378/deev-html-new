@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <u> <h1> Registration form</h1></u>
+    <form action="action.php">
+        <div>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+        </div>
+<div>
+    <p>Select your class</p>
+    <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+    </label>
+    <label for="102">
+<input type="radio" value="class XII" name="class" id="102">class XII
+    </label>
+    
+</div>
+<div>
+    <p>select your interests</p>
+    <label for="cricket">
+        <input type="checkbox" value="cricket" name="interests" id="cricket">cricket
+    </label>
+        <br>
+        <label for="football">
+            <input type="checkbox" value="football" name="interests" id="football">football
+    </label>
+    <br>
+    <label for="table tennis">
+        <input type="checkbox" value="table tennis" name="interests" id="table tennis">table tennis
+    </label>
+</div>
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>
